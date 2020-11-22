@@ -9,7 +9,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |string, index|
-    puts "#{index}, #{string}"
+    puts "#{string[0]}"
   end  
   
   # Use `each_with_index` to enumerate over the provided array
